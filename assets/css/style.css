@@ -9,10 +9,11 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: Olwald, sans-serif;
     letter-spacing: 4px;
     color: #252525;
@@ -23,3 +24,36 @@ h1,h2 {
     font-size: 200%;
 }
 
+/* navigation links */
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu {
+    float: right;
+    direction: rtl;
+    font-size: 110%;
+    letter-spacing: 4px;
+
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color:inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;    
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;    
+}
