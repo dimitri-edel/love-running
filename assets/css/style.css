@@ -22,6 +22,8 @@ h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 30px;
+    text-transform: uppercase;
 }
 
 /* navigation links */
@@ -100,17 +102,42 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
+
     width: 300px;
     height: 200px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241,109, 107, 0.7);
+    background-color: rgba(241, 109, 107, 0.7);
 
     bottom: 30px;
     right: 150px;
 
-    position:absolute;
+    position: absolute;
+}
+
+/* club-ethos */
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    float: left;
+    width: 33%;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    float: right;
+    width: 33%;
+    background-color: silver;
+}
+
+#center-about {    
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
