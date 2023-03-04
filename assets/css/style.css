@@ -144,7 +144,6 @@ hr {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 .left-about-heading {
@@ -173,3 +172,26 @@ hr {
     text-align: right;
 }
 
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccc;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#circle-cover-bg {
+    background: url("../img/ethos-center-image.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
